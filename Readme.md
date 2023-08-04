@@ -95,6 +95,7 @@ CREATE TABLE GroupUser (
     CONSTRAINT PK_Friend PRIMARY KEY (Userid, friendid));
    ```
 ### 效果展示
+<img width="881" alt="16F68360-D243-409A-8FF4-AD6C4F7F9999" src="https://github.com/wmnj/chatServer/assets/33375612/6e99a74d-dad8-4796-b39a-8aeaecee3ae4">
 
 ### 小细节
 * 编写客户端程序的时候，在主菜单栏的循环显示中，如果用户的输入无效，需要清空缓存区。
