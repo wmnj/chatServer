@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/testmuduo.dir/testmuduo.cpp.o  -o ../bin/testmuduo  -lmuduo_net -lmuduo_base -lpthread 
