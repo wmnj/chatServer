@@ -8,6 +8,12 @@ c++ mysql redis nginx muduo
 4. 一对一聊天、群聊  
 5. 使用nginx实现分布式服务器，使用redis作为服务器通信的中间件
 
+### 环境
+linux
+muduo
+nginx
+redis
+mysql
 
 ### 使用
 * 编译：
@@ -88,6 +94,7 @@ CREATE TABLE GroupUser (
     friendid INT NOT NULL,
     CONSTRAINT PK_Friend PRIMARY KEY (Userid, friendid));
    ```
+### 效果展示
 
 ### 小细节
 * 编写客户端程序的时候，在主菜单栏的循环显示中，如果用户的输入无效，需要清空缓存区。
